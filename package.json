@@ -1,0 +1,16 @@
+{
+  "name": "api-medicoes-temperatura",
+  "version": "1.0.0",
+  "description": "API REST para cadastro, conversao e classificacao de medicoes de temperatura",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  }
+}
