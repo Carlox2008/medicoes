@@ -17,7 +17,7 @@ API desenvolvida com Node.js, Express e MySQL (`mysql2/promise`) para cadastrar,
    npm install
    ```
 
-3. Copie `.env.example` para `.env` e informe as credenciais do seu MySQL.
+3. Copie `.env.you` para `.env` e informe as credenciais do seu MySQL.
 4. Inicie a API:
 
    ```bash
@@ -80,10 +80,6 @@ O resultado é arredondado para duas casas decimais.
 - De 80 °C até abaixo de 95 °C: `Faixa não especificada`
 - De 95 °C até 105 °C, inclusive: `Acima da temperatura ideal`
 - Acima de 105 °C: `Limite crítico`
-
-**Atenção:** o enunciado não define o que fazer com valores de 80 °C até abaixo de 95 °C. Neste projeto, foi usada a classificação provisória `Faixa não especificada`. Confirme essa decisão com o professor se possível.
-
-O exemplo de resposta no PDF também diverge da fórmula: para 100 °C, o resultado matemático é 212 °F. A implementação segue a fórmula descrita na seção 3.1.
 
 ## 6. Validações e erros
 
